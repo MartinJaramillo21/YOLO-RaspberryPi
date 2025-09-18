@@ -1,0 +1,71 @@
+/*estilos.qss*/
+
+/* Fondo general */
+QWidget {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 12pt;
+}
+
+/* Botones */
+QPushButton {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #d32f2f;
+}
+QPushButton:pressed {
+    background-color: #880e0e;
+}
+
+/* Slider */
+QSlider::groove:horizontal {
+    border: 1px solid #444;
+    height: 6px;
+    background: #2c2c2c;
+    margin: 0px;
+    border-radius: 3px;
+}
+QSlider::handle:horizontal {
+    background: #e53935;
+    border: 1px solid #b71c1c;
+    width: 16px;
+    margin: -6px 0;
+    border-radius: 8px;
+}
+QSlider::handle:horizontal:hover {
+    background: #ff5252;
+}
+
+/* Labels */
+QLabel {
+    font-size: 11pt;
+    color: #f5f5f5;
+}
+
+/* Caja de historial */
+QTextBrowser {
+    background-color: #2c2c2c;
+    border: 1px solid #b71c1c;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 10pt;
+    color: #ffebee;
+}
+QTextBrowser QScrollBar:vertical {
+    background: #2c2c2c;
+    width: 10px;
+}
+QTextBrowser QScrollBar::handle:vertical {
+    background: #e53935;
+    border-radius: 4px;
+}
+QTextBrowser QScrollBar::handle:vertical:hover {
+    background: #ff5252;
+}
