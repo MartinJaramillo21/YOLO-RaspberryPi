@@ -1,3 +1,8 @@
+#Nombre: Martin Chavez Jaramillo
+#Matrícula: 2163036728
+#Ingeniería en Computación
+#Fecha: 23 Septiembre 2025
+#Módulo control de LEDs
 #ControlLEDs.py
 #======================================================================================#
 #--------------------------------------------------------------------------------------#
